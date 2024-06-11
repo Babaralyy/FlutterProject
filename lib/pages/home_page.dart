@@ -8,7 +8,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text("Catalog App",), backgroundColor: Colors.green),
+        title: Text(
+          "Catalog App",
+          style: TextStyle(color: Colors.white),
+        ),
+
+      ),
       drawer: MyDrawer(),
       body: Center(
         child: Text("Welcome to 30 days flutter"),
